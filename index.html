@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" type="image/jpg" href="./imagens/caderno.png">
-  <title>SEMANA 01 | Atividade - Consoantes</title>
+  <title>Português | 2º ano - Atividade de Consoantes</title>
 </head>
 
 <body>
@@ -24,10 +24,10 @@
           <div class="card-body  bg-danger">
 
             <h2 class="card-title font-weight-bold">
-              <input style="width: 30px;" type="text" id="respR"> A <input input style="width: 30px;" type="text"
-                id="respT"> O
+              <input style="width: 30px; text-transform: uppercase;" type="text" id="respR"> A <input input
+                style="width: 30px; text-transform: uppercase" type="text" id="respT"> O
             </h2>
-            <p style="color: white; font-weight: bold; text-align: center;">resposta</p>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaRato"></p>
             <input onclick="conferirRato()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -38,8 +38,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/bala.png" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respB"> A <input input
-                style="width: 30px;" type="text" id="respL"> A </h2>
+            <h2 class="card-title"> <input style="width: 30px; text-transform: uppercase" type="text" id="respB"> A
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respL"> A </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaBala"></p>
             <input onclick="conferirBala()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -50,8 +51,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/mola.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"><input style="width: 30px;" type="text" id="respMo"> O <input input
-                style="width: 30px;" type="text" id="respLa"> A </h2>
+            <h2 class="card-title"><input style="width: 30px; text-transform: uppercase" type="text" id="respMo"> O
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respLa"> A </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaMola"></p>
             <input onclick="conferirMola()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -61,8 +63,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/bolo.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respBo"> O <input input
-                style="width: 30px;" type="text" id="respLo"> O </h2>
+            <h2 class="card-title"><input style="width: 30px; text-transform: uppercase" type="text" id="respBo"> O
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respLo"> O </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaBolo"></p>
             <input onclick="conferirBolo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -73,8 +76,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/bule.gif" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respBu"> U <input input
-                style="width: 30px;" type="text" id="respLe"> E </h2>
+            <h2 class="card-title"> <input style="width: 30px; text-transform: uppercase" type="text" id="respBu"> U
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respLe"> E </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaBule"></p>
             <input onclick="conferirBule()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -85,8 +89,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/fogo.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respFo"> O <input input
-                style="width: 30px;" type="text" id="respGo"> O </h2>
+            <h2 class="card-title"> <input style="width: 30px; text-transform: uppercase" type="text" id="respFo"> O
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respGo"> O </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaFogo"></p>
             <input onclick="conferirFogo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -97,8 +102,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/mala.png" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respMa"> A <input input
-                style="width: 30px;" type="text" id="respLa"> A </h2>
+            <h2 class="card-title"> <input style="width: 30px; text-transform: uppercase" type="text" id="respMala"> A
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respLal"> A </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaMala"></p>
             <input onclick="conferirMala()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -109,8 +115,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/rede.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"><input style="width: 30px;" type="text" id="respRe"> E <input input
-                style="width: 30px;" type="text" id="respDe"> E </h2>
+            <h2 class="card-title"><input style="width: 30px; text-transform: uppercase" type="text" id="respRe"> E
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respDe"> E </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaRede"></p>
             <input onclick="conferirRede()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -121,8 +128,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/pato.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"><input style="width: 30px;" type="text" id="respPa"> A <input input
-                style="width: 30px;" type="text" id="respTo"> O </h2>
+            <h2 class="card-title"><input style="width: 30px; text-transform: uppercase" type="text" id="respPa"> A
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respTo"> O </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaPato"></p>
             <input onclick="conferirPato()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -134,8 +142,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/copo.png" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"><input style="width: 30px;" type="text" id="respCo"> O <input input
-                style="width: 30px;" type="text" id="respPo"> O </h2>
+            <h2 class="card-title"><input style="width: 30px; text-transform: uppercase" type="text" id="respCo"> O
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respPo"> O </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaCopo"></p>
             <input onclick="conferirCopo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -147,8 +156,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/dedo.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"><input style="width: 30px;" type="text" id="respDe"> E <input input
-                style="width: 30px;" type="text" id="respDo"> O </h2>
+            <h2 class="card-title"><input style="width: 30px; text-transform: uppercase" type="text" id="respDed"> E
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="respDo"> O </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaDedo"></p>
             <input onclick="conferirDedo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -160,8 +170,9 @@
         <div class="card mt-4" style="width: 18rem;">
           <img src="./imagens/roda.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"><input style="width: 30px;" type="text" id="respRo"> O <input input
-                style="width: 30px;" type="text" id="respDo"> A </h2>
+            <h2 class="card-title"><input style="width: 30px; text-transform: uppercase" type="text" id="respRo"> O
+              <input input style="width: 30px; text-transform: uppercase" type="text" id="resDa"> A </h2>
+            <p style="color: white; font-weight: bold; text-align: center;" id="respostaRoda"></p>
             <input onclick="conferirRoda()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
               type="submit" value="Conferir">
           </div>
@@ -170,6 +181,7 @@
       </div>
       <footer class="mt-5 bg-danger"><a href="https://www.linkedin.com/in/leticiafrnc/">Por : Letícia Franco</a>
       </footer>
+      <script src="./app.js"></script>
 </body>
 
 </html>
