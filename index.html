@@ -1,129 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="./imagens/caderno.png">
-    <title>SEMANA 01 | Atividade - Consoantes</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="./imagens/caderno.png">
+  <title>SEMANA 01 | Atividade - Consoantes</title>
 </head>
+
 <body>
-    <div class="container mx-auto mt-4">
-        <h1 class="mt-3 bg-danger" style="color: white;"> Atividade - Complete com as Consoantes</h1> 
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mt-4" style="width: 18rem;">
-            <img src="./imagens/rato.jpg" class="card-img-top" alt="...">
-                <div class="card-body  bg-danger">
-                  <h2 class="card-title font-weight-bold"> <input style="width: 30px;" type="text"> A <input input style="width: 30px;" type="text"> O </h2>
-          </div> 
-        </div>
-        </div>
+  <div class="container mx-auto mt-4">
+    <h1 class="mt-3 bg-danger" style="color: white;"> Atividade - Complete com as Consoantes</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/rato.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
 
-          <div class="col-md-4 ">
-            <div class="card mt-4" style="width: 18rem;">
-              <img src="./imagens/bala.png" class="card-img-top" alt="...">
-                <div class="card-body  bg-danger">
-                  <h2 class="card-title"> <input style="width: 30px;" type="text"> A <input input style="width: 30px;" type="text"> A </h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mt-4" style="width: 18rem;">
-              <img src="./imagens/mola.jpg" class="card-img-top" alt="...">
-                <div class="card-body  bg-danger">
-                  <h2 class="card-title"><input style="width: 30px;" type="text"> O <input input style="width: 30px;" type="text"> A </h2>
-              </div>
-            </div>
-          </div>    
-          <div class="col-md-4">
-            <div class="card mt-4" style="width: 18rem;">
-                  <img src="./imagens/bolo.jpg" class="card-img-top" alt="...">
-                <div class="card-body  bg-danger">
-                  <h2 class="card-title"> <input style="width: 30px;" type="text"> O <input input style="width: 30px;" type="text"> O </h2></div>
-        </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mt-4" style="width: 18rem;">
-                <img src="./imagens/bule.gif" class="card-img-top" alt="...">
-            <div class="card-body  bg-danger">
-              <h2 class="card-title"> <input style="width: 30px;" type="text"> U <input input style="width: 30px;" type="text"> E </h2>
+            <h2 class="card-title font-weight-bold">
+              <input style="width: 30px;" type="text" id="respR"> A <input input style="width: 30px;" type="text"
+                id="respT"> O
+            </h2>
+            <p style="color: white; font-weight: bold; text-align: center;">resposta</p>
+            <input onclick="conferirRato()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
           </div>
         </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mt-4" style="width: 18rem;">
-                <img src="./imagens/fogo.jpg" class="card-img-top" alt="...">
-              <div class="card-body  bg-danger">
-                <h2 class="card-title"> <input style="width: 30px;" type="text"> O <input input style="width: 30px;" type="text"> O </h2>
-              </div>
-          </div>
-          </div>    
-          
-          <div class="col-md-4">
-            <div class="card mt-4" style="width: 18rem;">
-              <img src="./imagens/mala.png" class="card-img-top" alt="...">
-            <div class="card-body  bg-danger">
-              <h2 class="card-title"> <input style="width: 30px;" type="text"> A <input input style="width: 30px;" type="text"> A </h2>
-            </div>
-          </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mt-4" style="width: 18rem;">
-                <img src="./imagens/rede.jpg" class="card-img-top" alt="...">
-              <div class="card-body  bg-danger">
-                <h2 class="card-title"><input style="width: 30px;" type="text"> E <input input style="width: 30px;" type="text"> E </h2>
-            </div>
-        </div>
-          </div>       
-          
-          <div class="col-md-4">
-            <div class="card mt-4" style="width: 18rem;">
-                <img src="./imagens/pato.jpg" class="card-img-top" alt="...">
-              <div class="card-body  bg-danger">
-                <h2 class="card-title"><input style="width: 30px;" type="text"> A <input input style="width: 30px;" type="text"> O </h2>
-        </div>
-        
       </div>
+
+      <div class="col-md-4 ">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/bala.png" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respB"> A <input input
+                style="width: 30px;" type="text" id="respL"> A </h2>
+            <input onclick="conferirBala()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+        </div>
       </div>
 
       <div class="col-md-4">
         <div class="card mt-4" style="width: 18rem;">
-            <img src="./imagens/copo.png" class="card-img-top" alt="...">
+          <img src="./imagens/mola.jpg" class="card-img-top" alt="...">
           <div class="card-body  bg-danger">
-            <h2 class="card-title"><input style="width: 30px;" type="text"> O <input input style="width: 30px;" type="text"> O </h2>
-    </div>
-    
-  </div>
-  </div>
+            <h2 class="card-title"><input style="width: 30px;" type="text" id="respMo"> O <input input
+                style="width: 30px;" type="text" id="respLa"> A </h2>
+            <input onclick="conferirMola()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/bolo.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respBo"> O <input input
+                style="width: 30px;" type="text" id="respLo"> O </h2>
+            <input onclick="conferirBolo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+        </div>
+      </div>
 
-  <div class="col-md-4">
-    <div class="card mt-4" style="width: 18rem;">
-        <img src="./imagens/dedo.jpg" class="card-img-top" alt="...">
-      <div class="card-body  bg-danger">
-        <h2 class="card-title"><input style="width: 30px;" type="text"> E <input input style="width: 30px;" type="text"> O </h2>
-</div>
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/bule.gif" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respBu"> U <input input
+                style="width: 30px;" type="text" id="respLe"> E </h2>
+            <input onclick="conferirBule()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+        </div>
+      </div>
 
-</div>
-</div>
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/fogo.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respFo"> O <input input
+                style="width: 30px;" type="text" id="respGo"> O </h2>
+            <input onclick="conferirFogo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+        </div>
+      </div>
 
-<div class="col-md-4">
-  <div class="card mt-4" style="width: 18rem;">
-      <img src="./imagens/roda.jpg" class="card-img-top" alt="...">
-    <div class="card-body  bg-danger">
-      <h2 class="card-title"><input style="width: 30px;" type="text"> O <input input style="width: 30px;" type="text"> A </h2>
-</div>
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/mala.png" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"> <input style="width: 30px;" type="text" id="respMa"> A <input input
+                style="width: 30px;" type="text" id="respLa"> A </h2>
+            <input onclick="conferirMala()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+        </div>
+      </div>
 
-</div>
-</div>
-      <footer class="mt-5 bg-danger"><a href="https://www.linkedin.com/in/leticiafrnc/">Por : Letícia Franco</a> </footer>
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/rede.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"><input style="width: 30px;" type="text" id="respRe"> E <input input
+                style="width: 30px;" type="text" id="respDe"> E </h2>
+            <input onclick="conferirRede()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/pato.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"><input style="width: 30px;" type="text" id="respPa"> A <input input
+                style="width: 30px;" type="text" id="respTo"> O </h2>
+            <input onclick="conferirPato()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/copo.png" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"><input style="width: 30px;" type="text" id="respCo"> O <input input
+                style="width: 30px;" type="text" id="respPo"> O </h2>
+            <input onclick="conferirCopo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/dedo.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"><input style="width: 30px;" type="text" id="respDe"> E <input input
+                style="width: 30px;" type="text" id="respDo"> O </h2>
+            <input onclick="conferirDedo()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mt-4" style="width: 18rem;">
+          <img src="./imagens/roda.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-danger">
+            <h2 class="card-title"><input style="width: 30px;" type="text" id="respRo"> O <input input
+                style="width: 30px;" type="text" id="respDo"> A </h2>
+            <input onclick="conferirRoda()" style="font-weight: bold; margin-left: 5rem;" class="btn btn-warning"
+              type="submit" value="Conferir">
+          </div>
+
+        </div>
+      </div>
+      <footer class="mt-5 bg-danger"><a href="https://www.linkedin.com/in/leticiafrnc/">Por : Letícia Franco</a>
+      </footer>
 </body>
+
 </html>
